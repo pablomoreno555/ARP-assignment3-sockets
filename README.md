@@ -28,8 +28,6 @@ The application, when launched, asks the user to select one of the following exe
 - *server*: the application does not use the keyboard for input: it receives input from another application (on a different machine) running in client mode.
 - *client*: the application runs normally as Assignment 2 and, additionally, sends its keyboard input to another application (on a different machine) running in server mode.
 
-When selecting modes 2 and 3, the application asks the user to enter the IP address and the port number of the companion application.
-
 
 ## Processes
 

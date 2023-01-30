@@ -31,7 +31,7 @@ The application, when launched, asks the user to select one of the following exe
 
 ## Processes
 
-The following processes have been developed:
+The following processes have been implemented:
 
 - **ProcessA** (the same as in Assignment 2). It simulates a video-camera, creating a moving image using an ncurses window. Using the arrow keys, the user will move a circle in the window, producing an image in the simulated, shared, video memory. Additionally, when the user presses the button in the ncurses window, a snapshot of the image will be saved in a .bmp file.
 - **ProcessB** (the same as in Assignment 2). It simulates the extraction of the center of the circle from the acquired moving image. Also, it will show the position trace of the center of the circle in a second ncurses window.

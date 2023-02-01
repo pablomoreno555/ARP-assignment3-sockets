@@ -119,7 +119,7 @@ int main(int argc, char *argv[])
 
     // Assign IP ADDRESS and PORT NUMBER of the client according to the values entered by the user
     serv_addr.sin_family = AF_INET;
-    serv_addr.sin_addr.s_addr = inet_addr(argv[1]);
+    serv_addr.sin_addr.s_addr = htonl(INADDR_ANY);
     serv_addr.sin_port = htons(atoi(argv[2]));
 
     // Bind the newly created socket to the given IP and verificate
